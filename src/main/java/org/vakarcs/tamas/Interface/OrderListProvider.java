@@ -1,4 +1,4 @@
-package org.vakarcs.tamas.Model.Order;
+package org.vakarcs.tamas.Interface;
 
 import org.vakarcs.tamas.Customer;
 import org.vakarcs.tamas.Model.Order.OrderElement;

@@ -1,5 +1,7 @@
 package org.vakarcs.tamas.Adapter;
 
+import org.vakarcs.tamas.Interface.HttpAdapter;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;

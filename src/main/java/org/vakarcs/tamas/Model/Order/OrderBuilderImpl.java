@@ -1,11 +1,12 @@
 package org.vakarcs.tamas.Model.Order;
 
 import org.vakarcs.tamas.Customer;
+import org.vakarcs.tamas.Interface.OrderBuilder;
 
 import java.util.Date;
 import java.util.List;
 
-public class OrderBuilderImpl implements OrderBuilder{
+public class OrderBuilderImpl implements OrderBuilder {
     private OrderBuilderImpl orderBuilder;
 
     private Customer customer;

@@ -1,4 +1,4 @@
-package org.vakarcs.tamas.Adapter;
+package org.vakarcs.tamas.Interface;
 
 import java.io.IOException;
 import java.io.InputStream;

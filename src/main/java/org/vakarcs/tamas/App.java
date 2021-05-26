@@ -1,7 +1,7 @@
 package org.vakarcs.tamas;
 
 import org.vakarcs.tamas.Adapter.HttpAdapterImpl;
-import org.vakarcs.tamas.Model.Order.OrderListProvider;
+import org.vakarcs.tamas.Interface.OrderListProvider;
 import org.vakarcs.tamas.Model.Order.OrderListProviderImpl;
 import org.vakarcs.tamas.Controller.CustomerController;
 import org.vakarcs.tamas.Controller.OrderController;

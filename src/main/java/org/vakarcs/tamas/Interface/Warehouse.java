@@ -1,4 +1,4 @@
-package org.vakarcs.tamas.Model.Warehouse;
+package org.vakarcs.tamas.Interface;
 
 public interface Warehouse {
     void Revenue(Object o, int quantity);

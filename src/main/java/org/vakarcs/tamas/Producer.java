@@ -2,7 +2,7 @@ package org.vakarcs.tamas;
 
 import org.vakarcs.tamas.Model.Order.OrderElement;
 import org.vakarcs.tamas.Model.Product.FinishedProduct;
-import org.vakarcs.tamas.Model.Product.FinishedProductFactory;
+import org.vakarcs.tamas.Interface.FinishedProductFactory;
 import org.vakarcs.tamas.Model.Warehouse.FinishedProductWarehouse;
 import org.vakarcs.tamas.Model.Warehouse.RawMaterialWarehouse;
 

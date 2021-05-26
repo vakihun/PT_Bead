@@ -1,5 +1,7 @@
 package org.vakarcs.tamas.Model.Warehouse;
 
+import org.vakarcs.tamas.Interface.Warehouse;
+
 public class FinishedProductWarehouse implements Warehouse {
     private static FinishedProductWarehouse instance = null;
 

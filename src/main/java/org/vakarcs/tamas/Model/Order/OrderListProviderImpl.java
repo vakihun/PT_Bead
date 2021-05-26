@@ -2,14 +2,15 @@ package org.vakarcs.tamas.Model.Order;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.vakarcs.tamas.Adapter.HttpAdapter;
+import org.vakarcs.tamas.Interface.HttpAdapter;
 import org.vakarcs.tamas.Customer;
+import org.vakarcs.tamas.Interface.OrderListProvider;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-public class OrderListProviderImpl implements OrderListProvider{
+public class OrderListProviderImpl implements OrderListProvider {
     private String url = "https://semtex.tk/progtech";
     private final HttpAdapter httpAdapter;
 

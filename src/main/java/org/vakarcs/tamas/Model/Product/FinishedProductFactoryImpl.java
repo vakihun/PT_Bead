@@ -1,6 +1,8 @@
 package org.vakarcs.tamas.Model.Product;
 
-public class FinishedProductFactoryImpl implements FinishedProductFactory{
+import org.vakarcs.tamas.Interface.FinishedProductFactory;
+
+public class FinishedProductFactoryImpl implements FinishedProductFactory {
     @Override
     public FinishedProduct Create(String category) {
         FinishedProduct finishedProduct = null;
