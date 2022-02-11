@@ -17,5 +17,6 @@ public class HttpAdapterImpl implements HttpAdapter {
         connection.setRequestProperty("accept", "application/json");
 
         return connection.getInputStream();
+        
     }
 }
